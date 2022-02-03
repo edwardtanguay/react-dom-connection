@@ -35,7 +35,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<h1>Testing DOM to Vanilla JavaScript</h1>
+			<h1>Testing DOM access from React with useRef</h1>
 			<div ref={pianoElem}></div>
 			<div ref={contents}></div>
 		</div>
